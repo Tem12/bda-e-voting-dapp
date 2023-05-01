@@ -1,0 +1,155 @@
+body {
+    font-family: 'Ubuntu', sans-serif !important;
+    height: 100vh;
+    // background-color: #f9fbfd;
+    // color: #12263f;
+}
+
+.title {
+    line-height: initial !important;
+}
+
+input {
+    padding: 7px 14px;
+    font-size: 14px !important;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 8px;
+    outline: 0;
+    transition: all 0.2s ease 0s;
+
+    &:focus {
+        border: 2px solid #5684f8;
+    }
+
+    &.error {
+        border: 2px solid #ff7262;
+    }
+}
+
+.input-label {
+    font-size: 12px;
+}
+
+textarea {
+    padding: 7px 14px;
+    font-size: 14px !important;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 8px;
+    outline: 0;
+    transition: all 0.2s ease 0s;
+
+    &:focus {
+        border: 2px solid #5684f8;
+    }
+
+    &.error {
+        border: 2px solid #ff7262;
+    }
+}
+
+.primary-button {
+    height: 38px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #5684f8;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 38px;
+    outline: none !important;
+    border-radius: 8px;
+    border-width: 0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 1px 3px, rgba(0, 0, 0, 0.06) 0 1px 2px;
+    cursor: pointer;
+    transition: 0.3s background;
+
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+                                       supported by Chrome, Edge, Opera and Firefox */
+
+    &:hover:enabled {
+        background-color: #3d67f6;
+    }
+
+    &:active:enabled {
+        background-color: #3153c4;
+    }
+
+    &:disabled {
+        opacity: 0.65;
+        cursor: default;
+    }
+}
+
+.vr {
+    border: 0.5px solid rgb(81, 81, 81);
+    opacity: 1;
+}
+
+.time-picker-input {
+    width: 181px;
+    cursor: text;
+}
+
+.search-contract {
+    input {
+        width: 400px;
+    }
+
+    .search-button {
+        width: 300px;
+    }
+}
+
+.return-link {
+    color: #5596dc !important;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.refresh-link {
+    color: rgb(85, 150, 220) !important;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.evoting-create-form {
+    width: 200;
+}
+
+// Bootstrap dark overwrite
+
+.bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.nav-link:not(.active) {
+    color: rgb(85, 150, 220) !important;
+}
+
+.href {
+    color: rgb(85, 150, 220) !important;
+}
+
+code {
+    line-height: 1.8;
+}
+
+.toast-header {
+    border-radius: 8px !important;
+}
+
+.toast {
+    border-radius: 8px !important;
+}
