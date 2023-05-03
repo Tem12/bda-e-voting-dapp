@@ -19,8 +19,8 @@ export default class App extends React.Component {
         this.CHAIN_ID = 'pulsar-2';
         this.ALERT_SHOW_TIME = 10000;
 
-        this.CONTRACT_ID = 21020;
-        this.CODE_HASH = 'bb881dbc25ef71fc77a65430e1c164cc99dc453b81ca4b8c5305f882527de0fa';
+        this.CONTRACT_ID = 21033;
+        this.CODE_HASH = '9c09c7924ad7b90719fedcb05bff2c1fd898f80a7216c00259558f1c4265387d';
 
         this.API_LCD = 'https://api.pulsar.scrttestnet.com';
 
@@ -127,9 +127,9 @@ export default class App extends React.Component {
     getWalletInfoText() {
         switch (this.state.walletConnected) {
             case WalletState.Connecting:
-                return 'Connecting...';
+                return 'Connecting to wallet...';
             case WalletState.Connected:
-                return 'Connected';
+                return 'Wallet connected';
             case WalletState.Error:
             default:
                 return 'Error connecting wallet';
@@ -579,7 +579,7 @@ export default class App extends React.Component {
                         <code>{this.CONTRACT_ID}</code>
                     </div>
                     <div className="d-flex flex-row">
-                        <p className="me-2">Contract code hash</p>
+                        <p className="me-2">Contract code hash:</p>
                         <code>{this.CODE_HASH}</code>
                     </div>
                     <hr />
