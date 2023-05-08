@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/bda-e-voting-dapp/static/css/main.82b42c79.css",
-    "main.js": "/bda-e-voting-dapp/static/js/main.e74aca2c.js",
+    "main.js": "/bda-e-voting-dapp/static/js/main.1b429d87.js",
     "static/media/error.svg": "/bda-e-voting-dapp/static/media/error.de03c4ca7d255735795b86d56c670b2b.svg",
     "static/media/secret-logo.svg": "/bda-e-voting-dapp/static/media/secret-logo.abfdc1ec6c8ec2346e7b2d5d1c66893c.svg",
     "index.html": "/bda-e-voting-dapp/index.html",
     "static/media/chevron-down.svg": "/bda-e-voting-dapp/static/media/chevron-down.403e82ab85cd0791dc75.svg",
     "static/media/refresh.svg": "/bda-e-voting-dapp/static/media/refresh.c87efe4cbfa830581c3bfb60c1dc2178.svg",
     "main.82b42c79.css.map": "/bda-e-voting-dapp/static/css/main.82b42c79.css.map",
-    "main.e74aca2c.js.map": "/bda-e-voting-dapp/static/js/main.e74aca2c.js.map"
+    "main.1b429d87.js.map": "/bda-e-voting-dapp/static/js/main.1b429d87.js.map"
   },
   "entrypoints": [
     "static/css/main.82b42c79.css",
-    "static/js/main.e74aca2c.js"
+    "static/js/main.1b429d87.js"
   ]
 }
