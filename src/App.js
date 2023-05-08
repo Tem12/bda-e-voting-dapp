@@ -95,8 +95,16 @@ export default class App extends React.Component {
     async initWallet() {
         if (!window.keplr || !window.getEnigmaUtils || !window.getOfflineSignerOnlyAmino) {
             console.log('Cannot connect to keplr');
+
+            // Create readonly secret.js client
+            const secretjs = new SecretNetworkClient({
+                url: this.API_LCD,
+                chainId: this.CHAIN_ID,
+            });
+
             this.setState({
                 walletConnected: WalletState.Error,
+                secretjs: secretjs,
             });
         } else {
             await window.keplr.enable(this.CHAIN_ID);
@@ -558,7 +566,10 @@ export default class App extends React.Component {
                     <hr />
                     {this.renderWalletInfo()}
                     <hr />
-                    <p>Please note, that close time synchronization highly depends on block generation time. Execution transactions has been tested with 90,000+ gas.</p>
+                    <p>
+                        Please note, that close time synchronization highly depends on block generation time. Execution
+                        transactions has been tested with 90,000+ gas.
+                    </p>
                 </div>
             </div>
         );
