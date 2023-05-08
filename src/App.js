@@ -648,7 +648,7 @@ export default class App extends React.Component {
                 {this.renderAlertToast()}
                 <header className={'navbar navbar-dark navbar-expand-md bg-dark title'}>
                     <div className={'container'}>
-                        <a className={'navbar-brand d-flex flex-row'} href={'/'}>
+                        <a className={'navbar-brand d-flex flex-row'} href={'#'}>
                             <img src={Logo} alt={'logo'} width={40} />
                             <h3 className={'ms-3 mb-0 title'}>Secret E-voting DApp</h3>
                         </a>
