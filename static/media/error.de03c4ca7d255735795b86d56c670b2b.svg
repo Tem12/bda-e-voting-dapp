@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="37px" viewBox="0 0 36 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0.5" width="30" height="30" rx="8"></rect>
+        <filter x="-16.7%" y="-13.3%" width="133.3%" height="133.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50.0%" y="-60.0%" width="200.0%" height="220.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Smart-parking-alternative-grid" transform="translate(-791.000000, -560.000000)">
+            <g id="Group-Copy-2" transform="translate(794.000000, 562.000000)">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FF7262" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="alert-triangle" filter="url(#filter-3)" transform="translate(6.000000, 7.000000)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6">
+                    <path d="M7.60090909,1.46842105 L0.670909091,12.6315789 C0.380161332,13.1174208 0.3784254,13.7156423 0.666348971,14.2030475 C0.954272542,14.6904528 1.48860983,14.993834 2.07,15 L15.93,15 C16.5113902,14.993834 17.0457275,14.6904528 17.333651,14.2030475 C17.6215746,13.7156423 17.6198387,13.1174208 17.3290909,12.6315789 L10.3990909,1.46842105 C10.1024463,0.996537885 9.5719796,0.708359996 9,0.708359996 C8.4280204,0.708359996 7.89755372,0.996537885 7.60090909,1.46842105 Z" id="Path"></path>
+                    <path d="M9,5.52631579 L9,8.68421053" id="Path"></path>
+                    <path d="M9,11.8421053 L9.00818182,11.8421053" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
